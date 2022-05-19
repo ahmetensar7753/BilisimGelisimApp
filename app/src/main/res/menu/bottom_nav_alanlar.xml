@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_oneriler"
+        android:icon="@drawable/recommend"
+        android:title="Öneriler" />
+    <item
+        android:id="@+id/action_alan"
+        android:icon="@drawable/alan"
+        android:title="Alan" />
+    <item
+        android:id="@+id/action_bilgi"
+        android:icon="@drawable/data"
+        android:title="Bilgi Bankası" />
+</menu>

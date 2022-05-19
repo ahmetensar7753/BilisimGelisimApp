@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAC9"
+    tools:context=".SistemBilgiOnerActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/suez_one"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="ÖNERİ YAPMAK İSTEDİĞİNİZ                  BÖLÜMÜ SEÇİN"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSBOQuizSorusu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#A5A3A3"
+        android:fontFamily="@font/suez_one"
+        android:text="Quiz Sorusu"
+        android:textColor="#FFC107"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/test"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSBOAlanIpuclari"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/buttonSBOAlanIpuclari"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#A5A3A3"
+        android:fontFamily="@font/suez_one"
+        android:text="Alan İpuçları"
+        android:textColor="#FFC107"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/alan"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSBODersIcerigi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSBOQuizSorusu" />
+
+    <Button
+        android:id="@+id/buttonSBODersIcerigi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#A5A3A3"
+        android:fontFamily="@font/suez_one"
+        android:text="Ders İçeriği"
+        android:textColor="#FFC107"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/dersler"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSBOGenelOneri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSBOAlanIpuclari" />
+
+    <Button
+        android:id="@+id/buttonSBOGenelOneri"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#A5A3A3"
+        android:fontFamily="@font/suez_one"
+        android:text="Genel Öneri"
+        android:textColor="#FFC107"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/ampul"
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSBODersIcerigi" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Öneri Başına +50 puan"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView22"
+        app:srcCompat="@drawable/info_resim" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+            android:id="@+id/nav_item_dersler"
+            android:icon="@drawable/dersler"
+            android:title="Dersler" />
+    <item
+        android:id="@+id/nav_item_alanlar"
+        android:icon="@drawable/alan"
+        android:title="Alanlar" />
+        <item
+            android:id="@+id/nav_item_test_ol"
+            android:icon="@drawable/test"
+            android:title="Test Ol" />
+        <item
+            android:id="@+id/nav_item_sistem_bilgi_oner"
+            android:icon="@drawable/soru_oner"
+            android:title="Sistem Bilgi Öner" />
+
+
+</menu>

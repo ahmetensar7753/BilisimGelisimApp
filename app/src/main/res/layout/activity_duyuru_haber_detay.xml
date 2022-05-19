@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAC9"
+    tools:context=".DuyuruHaberDetayActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewHaberDetayBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@font/suez_one"
+                android:gravity="center_horizontal"
+                android:inputType="textVisiblePassword|textMultiLine|textNoSuggestions"
+                android:text="HABER - DUYURU BAŞLIĞI"
+                android:textColor="#CC0101"
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageViewHaberDetayResim"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/tebrikler_yazisi" />
+
+            <TextView
+                android:id="@+id/textViewHaberDetayIcerik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:gravity="fill_horizontal"
+                android:padding="10dp"
+                android:text="Hayatımızın değişmez bir parçası haline gelen mobil uygulama ve oyunlar yakında zamanda bilgisayarlarda da karşımıza çıkacak. Bugün yeni bir açıklama yapan Google, Android oyunlarının Windows bilgisayarlara geleceğini duyurdu. Google tarafından paylaşılan bilgilere göre Android oyunları önümüzdeki yıl Windows işletim sistemine sahip olan laptop, bilgisayar ve tabletler tarafından kullanılabilecek.  Edindiğimiz bilgilere göre Google, Windows için Google Play Games isimli bir uygulama geliştirecek. Bu uygulama 2022 yılında Windows için yayınlanacak. Sadece yeni Windows 11 sürümü için yayınlanmayacak olan Google Play Games uygulaması Windows'un eski sürümlerini de destekleyecek.  Hatırlatmak gerekirse benzer bir hamle daha önce Google'ın PC alternatifi olan Chromebook modelleri için atılmıştı. Söz konusu oyunların hem Android cihazlarda hem de Windows cihazlarda senkronize bir şekilde oynanacağını da belirtelim.Kısacası telefonunuzdan oynadığınız bir Android oyuna kaldığınızda yerden Windows bilgisayarınızda devam edebileceksiniz. Senkronizasyonun gerçekleşebilmesi için her iki cihazda da aynı Google hesabının açık olması gerekiyor.   Android ve Windows işletim sisteminin son zamanlarda oldukça yakın çalıştığını da belirtelim. Hatırlatmak gerekirse Amazon ile önemli bir anlaşma imzalayan Microsoft, bazı Android oyun ve uygulamalarının Amazon Appstore aracılığı ile Windows cihazlara yüklenmesine izin de vermişti.Amazon Web Services yani AWS’in her yıl gerçekleşen konferansı re:Invent, bir yıl aradan sonra tekrar Las Vegas’ta gerçekleşti. Önceki senelere göre katılımcı sayısı daha az olmasına rağmen 25.000 gibi katılımcı rakamlarının konuşulduğu devasa bir konferanstan bahsediyoruz. Tabi bu kadar insan Covid’e rağmen Las Vegas’a boşuna gelmiyor. Bunun bir sebebi networking, bir diğer sebebi ise AWS’in de söylediği gibi bu bir öğrenme konferansı, yani sunumlara ve workshoplara katılıyorlar. Tabi bunların ötesinde her sene bizim de en çok ilgimizi çeken kısım keynote konuşmaları. Bu konuşmalarda birçok yenilik açıklanıyor ve AWS’in geleceği hakkında bize fikirler veriyor.  Geçen seneki gibi önemli güncellemeleri paylaşmadan önce bu senenin öneminden kısaca bahsetmek istiyorum. Bildiğiniz gibi AWS’in eski CEO’su Andy Jassy artık Amazon’da CEO koltuğunda. AWS’in hızlı büyümesi, Andy’nin başarısı ve Amazon’un en eski çalışanlarından biri olması bu kararda etkili olsa gerek. AWS’in boşalan CEO koltuğuna ise yine AWS’in eski COO’su ve Salesforce’un 15.7milyar $’a satın aldığı Tableau’nun CEO’su Adam Selipsky geldi. Adam’ın keynote’u da ilk re:Invent sunumu olacağı için merakla bekleniyordu. İlk izlenimlere göre Adam, AWS’te çok büyük değişikliklere gitmiyor ve enterprise tarafında servis geliştirmeleri ve temel yetenekleri geliştirme üzerine bir strateji izliyor.  Tabii tüm bu değişikliklerin yanı sıra bu sene re:Invent 10. senesiydi. Bu sebeple de AWS oldukça güzel bir etkinlik ve birçok güncelleme ile gelmiş. Bu yazımda sizlere re:Invent’te gelen önemli güncellemeleri paylaşıp, sizlere hap şeklinde hızlıca bilgi edinebileceğiniz bir kaynak oluşturmayı amaçlıyorum. Keyifli okumalar!"
+                android:textColor="#4C4C4C" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabDuyuruHaberYorum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="#FAFAC9"
+                    android:clickable="true"
+                    app:borderWidth="0dp"
+                    app:fabCustomSize="36dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/yorum_resim"
+                    app:tint="#C10303"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabDuyuruHaberLike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="#FAFAC9"
+                    android:clickable="true"
+                    app:borderWidth="0dp"
+                    app:fabCustomSize="36dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/fabDuyuruHaberYorum"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/like_resim"
+                    app:tint="#C10303"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/textViewArti1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="3dp"
+                    android:text="+ 1"
+                    android:textColor="@color/red"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/fabDuyuruHaberLike"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/suez_one"
+                android:gravity="center_horizontal"
+                android:text="YORUMLAR"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/asagi_ok" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvDuyuruHaberYorumlar"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/layout_bg_corner_radius" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

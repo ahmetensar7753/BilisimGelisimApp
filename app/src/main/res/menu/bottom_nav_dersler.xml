@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_konular"
+        android:icon="@drawable/konular_resim"
+        android:title="Konular" />
+    <item
+        android:id="@+id/action_ders_ozet"
+        android:icon="@drawable/ders_resim"
+        android:title="Ders" />
+    <item
+        android:id="@+id/action_ipuclari"
+        android:icon="@drawable/ipucu_resim"
+        android:title="İpuçları" />
+</menu>
