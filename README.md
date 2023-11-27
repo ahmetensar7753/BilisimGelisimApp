@@ -11,3 +11,7 @@
 -RESTful architecture is used, with a database created in phpMyAdmin. Communication is facilitated through PHP web services running in the repository provided by the hosting company.
 
 -VOLLEY library is used on the application side, and Picasso library is employed for operations related to the images stored on the server.
+
+-Communication with the JavaMail API using the 'JavaMail' library has been established to facilitate users in sending emails through the application using the SMTP protocol.
+
+-The 'Android Activation' library has been utilized for the Activation API to assist in handling MIME types, aiming to create email content.
