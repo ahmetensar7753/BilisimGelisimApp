@@ -9,4 +9,5 @@
 -The application has two types of users. The first type is called an editor, who has the authority to add new content to the system. The second type is regular users. Editors can add information to the system, while regular users can send suggestions regarding the information or questions they would like to see added.
 
 -RESTful architecture is used, with a database created in phpMyAdmin. Communication is facilitated through PHP web services running in the repository provided by the hosting company.
+
 -VOLLEY library is used on the application side, and Picasso library is employed for operations related to the images stored on the server.
